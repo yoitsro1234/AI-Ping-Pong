@@ -15,15 +15,37 @@
 
     </head>
     <body background="Basalt Deltas.webp">
-        <h4 class="btn btn-success h4">AI Ping Pong Game</h4>
+        <div class="modal fade" id="sqz">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    <h4>Instructions</h4>
+                    </div>
+                    <div class="modal-body">
+                      <h4 id="myG">Ok so basically you have to move your mouse to move the red pad and you have to move it so that the ball hits it and bounces back. Now keep doing this and the speed will increase. The speed can also act as your highscore. Good luck!</h4>
+                    </div>          
+                </div>
+              </div>
+        </div>
+        <h4 class="btn btn-success h4">AI Ping Pong Game <br><br></h4>
+        <br>
+        <br>
+        <button class="lemon" data-toggle="modal" data-target="sqz">Instructions</button>
         <br>
         <br>
         <div>
-        <button class="btn btn-warning">Start Game</button>
+            <b>
+        <button class="btn ez">Start Game</button>
+        </b>
+        <br>
+        <br>
+        <button class="btn pz" onclick="restart()">Restart</button>
         </div>
         <br>
         <br>
         <div id="canvas"></div>
+
 
         <script src="main.js"></script>
     </body>
