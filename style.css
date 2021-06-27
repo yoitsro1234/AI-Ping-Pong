@@ -12,3 +12,48 @@ text-align: center;
     box-shadow: 5px 5px 5px black;
     margin-bottom: 10px;
 }
+
+.ez{
+    font-weight: bolder;
+    background: cyan;
+    color: darkblue;
+    box-shadow: 2px 2px 2px black;
+}
+
+.ez:hover{
+    font-weight: bolder;
+    background: darkblue;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+}
+
+.pz{
+    font-weight: bold;
+    background: cyan;
+    color: darkblue;
+    box-shadow: 2px 2px 2px black;
+}
+
+.pz:hover{
+    font-weight: bolder;
+    background: darkblue;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+}
+
+#sqz{
+    background-color: turquoise;
+    color: slateblue;
+}
+
+.lemon{
+    background: slateblue;
+    color: black;
+}
+
+#canvas{
+    border-color: cornflowerblue;
+    border-style: double;
+    width: fit-content;
+    height: fit-content;
+}
