@@ -23,6 +23,7 @@ var ball = {
 
 function setup(){
   canvas = createCanvas(640, 500);
+  canvas.parent("canvas");  
 }
 
 
